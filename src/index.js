@@ -11,7 +11,7 @@ class Calculator {
     this.x = rtl(x)
   }
   prefix (y) {
-    if (x === undefined) {
+    if (y === undefined) {
       console.warn('prefix(x), x is undefined.')
       return
     }
@@ -29,7 +29,7 @@ class Calculator {
     this.y = rtl(y)
   }
   add (y) {
-    if (x === undefined) {
+    if (y === undefined) {
       console.warn('.add(x), x is undefined.')
       return
     }
@@ -37,14 +37,14 @@ class Calculator {
     return (this.x + this.y) / Math.pow(10, this.z)
   }
   subtract (y) {
-    if (x === undefined) {
+    if (y === undefined) {
       console.warn('.subtract(x), x is undefined.')
       return
     }
     return this.add(-y)
   }
   multiply (y) {
-    if (x === undefined) {
+    if (y === undefined) {
       console.warn('.multiply(x), x is undefined.')
       return
     }
@@ -52,7 +52,7 @@ class Calculator {
     return (this.x * this.y) / Math.pow(Math.pow(10, this.z), 2)
   }
   divide (y) {
-    if (x === undefined) {
+    if (y === undefined) {
       console.warn('.divide(x), x is undefined.')
       return
     }
