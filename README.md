@@ -1,4 +1,7 @@
 # vue-calc
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/vue-calc.svg)](https://greenkeeper.io/)
+
 fix 1.1 - 1.3 = -0.19999999999999996
 
 # Install
